@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Ausranking/intro-component-with-signup-form.git]
+- Live Site URL: [https://intro-component-with-signup-form-git-main-austranking.vercel.app/]
 
 ## My process
 
@@ -45,7 +45,7 @@ in future projects, I want to be able to make the form validation better.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Ausranking)
+- Frontend Mentor - [@Austranking](https://www.frontendmentor.io/profile/Ausranking)
 - Twitter - [@austranking](https://www.twitter.com/austinnze1000)
 
 ## Acknowledgments
