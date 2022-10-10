@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="/app.js/index.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  
+</head>
+
+<body>
+  <main>
+    <section class="text">
+      <h1>Learn to code by <br />watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p>
+    </section>
+    <section class="action">
+      <button id="free">
+        Try it free 7 days <span>then $20/mo. thereafter</span>
+      </button>
+      <form id="myform" class="asideform"action="#" method="post" onsubmit="return errorMessage()">
+        <input type="text" name="firstname" id="firstname" placeholder="First Name"  autocomplete="on" />
+        <div class="error1"></div>
+
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name " />
+        <div class="error2"></div
+        >
+
+        <input type="email" name="email" id="email" placeholder="Email Address"  />
+        <div class="error3"></div>
+
+        <input type="password" name="password" id="password" placeholder="Password" />
+
+        <div id="error4"></div>
+
+        <input type="submit" id="submit" value="CLAIM YOUR FREE TRIAL" />
+        <h5>
+          By clicking the button, you are agreeing to our
+          <span>Terms and Services</span>
+        </h5>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      Coded by
+      <a href="https://www.twitter.com/austinnze1000" target="_blank">Austin</a>
+    </p>
+    &copy; Copyright 2022, All rights reserved.
+  </footer>
+</body>
+
+</html>
