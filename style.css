@@ -3,29 +3,39 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 100%;
+  border: 2px solid yellow;
+  height: 100%;
+}
+
 main {
   background-color: hsl(0, 100%, 74%);
   background-image: url(./images/bg-intro-desktop.png);
-  border: 2px solid white;
   max-width: 1200px;
   height: 80vh;
   margin: auto;
-  margin-top: 40px;
   display: flex;
+  margin-top: 5%;
   justify-content: space-evenly;
   align-items: center;
 }
+
 .text,
 .action {
   width: 400px;
 }
 
 h1 {
+  font-family: 'Poppins', sans-serif;
   padding: 10px;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
+
 p {
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   padding: 10px;
   color: white;
@@ -34,12 +44,13 @@ p {
 button {
   font-size: 11px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: hsl(248, 32%, 49%);
   color: white;
   padding: 15px;
   width: 400px;
 }
+
 button span {
   opacity: 0.7;
 }
@@ -62,6 +73,7 @@ button span {
   padding: 10px;
   margin: 10px auto;
 }
+
 .asideform input:focus {
   outline: none;
   border: 1px solid black;
@@ -74,51 +86,94 @@ button span {
   border: none;
   background-color: hsl(154, 59%, 51%);
 }
+
 #free:hover,
 #submit:hover {
   cursor: pointer;
 }
+
 .asideform h5 {
   color: hsl(246, 25%, 77%);
   text-align: center;
   font-size: 11px;
 }
+
 .asideform span {
   color: hsl(0, 100%, 74%);
 }
+
 footer {
+  position: relative;
+  bottom: 0;
   text-align: center;
 }
 
 .attribution {
-  color: rgb(24, 22, 22);
+  color: rgb(26, 3, 3);
   font-size: 18px;
 }
-div {
-  text-align: right;
+
+.copy {
+  text-align: center;
   font-size: 13px;
+  color: rgb(202, 148, 148);
 }
 
 @media screen and (max-width: 768px) {
-  main {
+  body {
     background-image: url(./images/bg-intro-mobile.png);
-    height: 90vh;
+    background-color: hsl(0, 100%, 74%);
+
+  }
+
+  main {
+    position: relative;
+    height: 100vh;
     max-width: 95%;
-    margin: 0 auto;
+    margin-top: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .text,
-  .form {
-    display: block;
-    margin: 10px;
+  .action {
+    max-width: 100%;
+    margin: auto;
     text-align: center;
-    max-width: 350px;
   }
+
+  .text p {
+    font-size: 19px;
+    line-height: 1.55em;
+  }
+
   button {
     display: block;
-    width: 350px;
+    padding: 28px;
+    width: 300px;
     margin: auto;
+  }
+
+  .asideform {
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    margin: 20px auto;
+  }
+
+  .asideform input {
+    width: 250px;
+    margin: 25px auto;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+
+  .attribution,
+  .copy {
+    color: #fff;
   }
 }

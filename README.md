@@ -48,7 +48,4 @@ in future projects, I want to be able to make the form validation better.
 - Frontend Mentor - [@Austranking](https://www.frontendmentor.io/profile/Ausranking)
 - Twitter - [@austranking](https://www.twitter.com/austinnze1000)
 
-## Acknowledgments
 
-Thanks to Frontend Mentor for putting up this challenge for Newbies to Practice my skills.
-I really love this and looking forward to taking up other challenges.

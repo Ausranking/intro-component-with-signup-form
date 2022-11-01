@@ -8,9 +8,8 @@ function errorMessage() {
   let lastname= document.getElementById("lastname")
   let email= document.getElementById("email")
   let password= document.getElementById("password")
-  let x =
-    document.forms["myform"]["password" || "firstname" || "email" || "lastname"]
-      .value;
+  let x = document.forms["myform"]
+  ["password" || "firstname" || "email" || "lastname"].value;
   if (x == "") {
     firstName.style.border="1px solid red"
     lastname.style.border="1px solid red"
